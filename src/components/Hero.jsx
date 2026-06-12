@@ -1,6 +1,7 @@
 // src/components/Hero.jsx
 import { motion } from "framer-motion";
 import { FiArrowRight, FiDownload } from "react-icons/fi";
+import profileImage from "../assets/your-photo.jpeg";
 
 
 function Hero() {
@@ -43,7 +44,7 @@ function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-2xl md:text-3xl font-bold font-mono text-amber-500 mb-6"
           >
-            Full-Stack Developer
+           Software Engineer | Full-Stack Developer
           </motion.h2>
 
           <motion.p 
@@ -89,10 +90,8 @@ Download  <FiDownload />
             {/* Image Box Container */}
             <div className="relative rounded-[1.7rem] overflow-hidden aspect-[4/5] bg-slate-900 border border-slate-800/50">
               <img
-                src="/src/assets/your-photo.jpeg" 
-                alt="Amar Surushe Portrait"
-                className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
-              />
+  src={profileImage}
+  alt="Amar Surushe Portrait"/>
               
               {/* Dynamic Overlay Shadow */}
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-60" />
