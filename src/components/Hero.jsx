@@ -7,19 +7,19 @@ import profileImage from "../assets/your-photo.jpeg";
 function Hero() {
   return (
     <section className="relative h-screen overflow-hidden bg-gradient-to-b from-[#0b1329] via-[#090d16] to-[#05070f] flex items-center">
-      
+
       {/* Premium Tech Canvas Textures */}
       <div className="absolute top-1/4 left-1/4 w-[400px] h-[400px] bg-blue-500/5 rounded-full blur-[150px] pointer-events-none" />
       <div className="absolute bottom-1/3 right-1/4 w-[300px] h-[300px] bg-amber-500/5 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff02_1px,transparent_1px),linear-gradient(to_bottom,#ffffff02_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]" />
 
-     
+
 
       <div className="relative z-10 max-w-7xl mx-auto w-full px-8 md:px-16 grid lg:grid-cols-12 gap-12 items-center">
-        
+
         {/* Left: Premium Engineering Branding */}
         <div className="lg:col-span-7 text-left">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
@@ -29,7 +29,7 @@ function Hero() {
             Sailing the Web Ecosystem
           </motion.div>
 
-          <motion.h1 
+          <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
@@ -38,50 +38,50 @@ function Hero() {
             Amar Surushe
           </motion.h1>
 
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-2xl md:text-3xl font-bold font-mono text-amber-500 mb-6"
           >
-           Software Engineer | Full-Stack Developer
+            Software Engineer | Full-Stack Developer
           </motion.h2>
 
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
             className="max-w-xl text-slate-400 text-sm md:text-base leading-relaxed mb-10"
           >
-Building scalable full-stack web applications using React, Node.js and MongoDB while exploring AI and cybersecurity.
+            Building scalable full-stack web applications using React, Node.js and MongoDB while exploring AI and cybersecurity.
           </motion.p>
 
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
             className="flex flex-wrap gap-4"
           >
-            <a 
-              href="#projects" 
+            <a
+              href="#projects"
               className="group bg-amber-500 text-slate-950 px-6 py-3 rounded-xl font-bold font-mono text-sm flex items-center gap-2 hover:bg-amber-400 transition-all shadow-[0_4px_20px_rgba(245,158,11,0.15)]"
             >
               Logbook Entries <FiArrowRight className="group-hover:translate-x-1 transition-transform" />
             </a>
 
-            <a 
-              href="https://drive.google.com/file/d/1P_DA5bqqycHaO4w-3K9i7ZHPvoL4AAkj/view?usp=drive_link" 
+            <a
+              href="https://drive.google.com/file/d/1P_DA5bqqycHaO4w-3K9i7ZHPvoL4AAkj/view?usp=drive_link"
               className="border border-slate-800 text-slate-300 hover:text-white hover:border-slate-600 px-6 py-3 rounded-xl font-bold font-mono text-sm flex items-center gap-2 hover:bg-slate-900/40 transition-all"
             >
               🏴‍☠️ Bounty Resume
-Download  <FiDownload />
+              Download  <FiDownload />
             </a>
           </motion.div>
         </div>
 
         {/* Right: Premium Identity Frame */}
         <div className="lg:col-span-5 flex justify-center lg:justify-end relative group">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
@@ -90,14 +90,14 @@ Download  <FiDownload />
             {/* Image Box Container */}
             <div className="relative rounded-[1.7rem] overflow-hidden aspect-[4/5] bg-slate-900 border border-slate-800/50">
               <img
-  src={profileImage}
-  alt="Amar Surushe Portrait"
-  className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
-/>
-              
+                src={profileImage}
+                alt="Amar Surushe Portrait"
+                className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
+              />
+
               {/* Dynamic Overlay Shadow */}
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-60" />
-              
+
               {/* Functional Tech Corners Brackets */}
               <div className="absolute top-4 left-4 w-3 h-3 border-t-2 border-l-2 border-amber-500/40 group-hover:border-amber-400 transition-colors" />
               <div className="absolute top-4 right-4 w-3 h-3 border-t-2 border-r-2 border-amber-500/40 group-hover:border-amber-400 transition-colors" />
