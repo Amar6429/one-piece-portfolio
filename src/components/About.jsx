@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import profileImage from "../assets/your-photo.jpeg";
 
 function About() {
   return (
@@ -30,10 +31,10 @@ function About() {
           >
             <div className="w-32 h-32 rounded-full  flex items-center justify-center text-5xl mx-auto mb-6">
               <img
-                src="/src/assets/your-photo.jpeg" 
-                alt="Amar Surushe Portrait"
-                className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
-              />
+  src={profileImage}
+  alt="Amar Surushe Portrait"
+  className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
+/>
             </div>
 
             <h3 className="text-3xl font-bold text-center mb-4">
