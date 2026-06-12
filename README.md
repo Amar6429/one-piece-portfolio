@@ -24,7 +24,7 @@ A modern One Piece–inspired developer portfolio showcasing my projects, techni
 
 ## 🚀 Live Demo
 
-https://one-piece-portfolioeight.vercel.app/
+https://one-piece-portfolio-eight.vercel.app/
 
 ## 📸 Preview
 
